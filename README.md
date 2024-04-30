@@ -6,15 +6,15 @@ Please note that this website is for educational purposes only and is intended t
 
 **Installation**
 
-Clone the repository
-Open the index.html file in your browser
-Done!
+1. Clone the repository
+2. Open the index.html file in your browser
+3. Done!
 
 **Libraries/Technologies used**
 
-HTML
-CSS
-JavaScript
+ • HTML
+ • CSS
+ • JavaScript
 
 **Screenshots**
 
