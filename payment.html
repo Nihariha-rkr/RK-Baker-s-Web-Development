@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - RK Bakery</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff8c00;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Payment</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <div class="container">
+        <div class="main-content">
+            <h2>Secure Payment</h2>
+            <p>Please enter your payment details below:</p>
+            <form action="payment_process.php" method="post">
+                <label for="card_number">Card Number:</label>
+                <input type="text" id="card_number" name="card_number" required><br><br>
+                
+                <label for="expiration_date">Expiration Date:</label>
+                <input type="text" id="expiration_date" name="expiration_date" placeholder="MM/YY" required><br><br>
+                
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required><br><br>
+                
+                <label for="card_holder_name">Card Holder Name:</label>
+                <input type="text" id="card_holder_name" name="card_holder_name" required><br><br>
+                
+                <input type="submit" value="Make Payment">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 RK Bakery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
