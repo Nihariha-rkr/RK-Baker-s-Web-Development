@@ -14,11 +14,11 @@ Please note that this website is for educational purposes only and is intended t
 
 ## **Libraries/Technologies used**
 
- • HTML
+• HTML
  
- • CSS
+• CSS
  
- • JavaScript
+• JavaScript
 
 ## **Screenshots**
 
