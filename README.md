@@ -1,4 +1,4 @@
-**RK BAKER'S-Web Development**
+# **RK BAKER'S-Web Development**
 
 Welcome to this repository containing a front-end clone of the RK Baker's website, built using pure HTML, CSS, and JavaScript.
 
